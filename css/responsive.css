@@ -1,0 +1,66 @@
+@media only screen and (max-width: 768px) {
+    nav ul li {
+        display: none;
+    }  
+    nav button {
+        display: block;
+    }  
+    .header-top-iteam a span {
+        display: none;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .bulet-btn {
+        right: 42%;
+    }
+
+    .about-description {
+        margin-left: 0px;
+    }
+
+    .about {
+        gap: 20px;
+        flex-direction: column-reverse;
+    }
+
+    .service-item {
+        flex-direction: column;
+    }
+
+    .contact-form input[type=text],
+    .contact-form input[type=email],
+    textarea {
+        width: 80%;
+    }
+    .client {
+        gap: 10%;
+    }
+    .guard-gallery {
+        flex-direction: column;
+    }
+    .footer-iteam {
+        flex-direction: column;
+        gap: 100px;
+    }
+    
+}
+
+@media only screen and (max-width: 480px) {
+    .banner-heading h1 {
+        font-size: 35px;
+        margin-bottom: 31px;
+        line-height: 35px;
+    }
+
+    .banner-heading button {
+        padding: 10px 30px;
+        font-size: 15px;
+    }
+
+    .banner-heading {
+        padding: 40px 0px 150px 0;
+    }
+}
